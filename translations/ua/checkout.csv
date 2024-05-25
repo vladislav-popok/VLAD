@@ -1,0 +1,47 @@
+en,cn
+Total, Всього
+Order, Порядок
+Sku, SKU
+Continue to shipping, Продовжити доставку
+Continue shopping, Продовжити покупки
+Continue Shopping, Продовжити покупки
+CONTINUE SHOPPING, ПРОДОВЖИТИ ПОКУПКИ
+Shopping cart, Магазинний візок
+Product, Продукт
+Price, Ціна
+Quantity, Кількість
+Remove, Видалити
+Qty, кількість
+Sub total, Підсумок
+Discount(${coupon}), Знижка(${coupon})
+Order summary, Підсумок Замовлення
+Taxes and shipping calculated at checkout, Податки та вартість доставки розраховуються під час оформлення замовлення
+CHECKOUT, Оформити замовлення
+Change, Зміна
+Payment Method, Спосіб оплати
+Shipping Method, Спосіб доставки
+No payment methods available, Немає доступних способів оплати
+Place Order, Зробити замовлення
+My billing address is same as shipping address, Моя платіжна адреса збігається з адресою доставки
+${count} items, ${count} елементи
+Discount, Знижка
+Shipping, Доставка
+No tax, Без податків
+Tax, Доставка
+"Sorry, there is no available method for your address", "На жаль, для вашої адреси немає доступного методу"
+"Please enter a shipping address in order to see shipping quotes", "Будь ласка, введіть адресу доставки, щоб переглянути ціни на доставку"
+Continue to payment, Продовжити до оплати
+No payment method available, Немає способу оплати
+Ship to, Відправити до
+Shipment, Доставка
+Thank you ${name}!, Дякую ${name}!
+Contact information, Контактна інформація
+Order #${orderNumber}, Порядок #${orderNumber}
+ADD TO CART, ДОДАТИ В КОШИК
+Please select variant options, Виберіть варіанти
+VIEW CART (${count}), ПЕРЕГЛЯНУТИ КОШИК (${count})
+JUST ADDED TO YOUR CART, ЩОЙНО ДОДАНО ДО ВАШОГО КОШИКУ
+Promotion code?, Промо-код?
+Enter coupon code, Введіть код купона
+Apply, Застосувати
+Your cart is empty!, Ваш кошик порожній!

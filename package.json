@@ -9,6 +9,10 @@
     "dev": "evershop dev"
   },
   "dependencies": {
-    "@evershop/evershop": "1.1.0"
-  }
+    "@evershop/evershop": "1.1.0",
+    "@evershop/product_review": "^1.1.0"
+  },
+  "workspaces": [
+    "extensions/*"
+  ]
 }
