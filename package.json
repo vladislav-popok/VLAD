@@ -9,7 +9,6 @@
     "dev": "evershop dev"
   },
   "dependencies": {
-    "@evershop/evershop": "1.1.0",
-    "lodash": "^4.17.21"
+    "@evershop/evershop": "1.1.0"
   }
 }
