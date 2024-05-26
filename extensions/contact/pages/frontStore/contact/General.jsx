@@ -31,7 +31,7 @@ export default function General({action}) {
     <div className="page-width contact-page ">
       <div className="mb-1 md:mb-2 contact-form">
         <div className="text-left ">
-          <h1>Наипсати нам:</h1>
+          <h1>Написати нам:</h1>
 
           <form onSubmit={onSubmit} method={'POST'} ref={formRef}>
             <label htmlFor="name">ФІО:</label>
