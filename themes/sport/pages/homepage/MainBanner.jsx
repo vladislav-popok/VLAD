@@ -1,12 +1,11 @@
 import React from "react";
 import "./MainBanner.scss";
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
 
 
 function MainBanner() {
   return (
     <div className="main-banner-home flex items-center">
-      <div className="page-width grid grid-cols-2 md:grid-cols-2 gap-2">
+      <div className="page-width grid grid-cols-1 md:grid-cols-2 gap-2">
         <div className="text-center md:text-left  px-2 ">
           <h2 className="h1 ">Відкрий Новий Сезон Спорту!
 
