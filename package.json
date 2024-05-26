@@ -7,14 +7,16 @@
     "start": "evershop start",
     "build": "evershop build",
     "dev": "evershop dev",
-    "user:create": "evershop user:create"
+    "user:create": "evershop user:create",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@evershop/evershop": "1.1.0",
     "@evershop/product_review": "^1.1.0",
-    "@mui/material": "^5.15.18"
+    "@mui/material": "^5.15.18",
+    "patch-package": "^8.0.0"
   },
   "workspaces": [
     "extensions/*"

@@ -1,0 +1,13 @@
+diff --git a/node_modules/@evershop/evershop/src/modules/catalog/services/registerDefaultProductCollectionFilters.js b/node_modules/@evershop/evershop/src/modules/catalog/services/registerDefaultProductCollectionFilters.js
+index 142f046..6bc4fa4 100644
+--- a/node_modules/@evershop/evershop/src/modules/catalog/services/registerDefaultProductCollectionFilters.js
++++ b/node_modules/@evershop/evershop/src/modules/catalog/services/registerDefaultProductCollectionFilters.js
+@@ -16,7 +16,7 @@ module.exports = async function registerDefaultProductCollectionFilters() {
+         const bindingKey = `keyword_${uniqid()}`;
+         where.addRaw(
+           'AND',
+-          `to_tsvector('simple', product_description.name || ' ' || product_description.description) @@ websearch_to_tsquery('simple', :${bindingKey})`,
++          `product_description.name || ' ' || product_description.description LIKE '%' || :${bindingKey} || '%'`,
+           {
+             [bindingKey]: value
+           }
