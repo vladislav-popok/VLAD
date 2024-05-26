@@ -1,0 +1,23 @@
+
+"""
+Represents a customer request.
+"""
+type CustomerRequest {
+  customerRequestId: Int!
+  uuid: String!
+  customerName: String
+  customerEmail: String
+  comment: String
+  createdAt: String
+}
+
+"""
+Returns a collection of reviews.
+"""
+type CustomerRequestCollection {
+  items: [CustomerRequest]
+}
+
+extend type Query {
+  requests(filters: [FilterInput]): CustomerRequestCollection
+}

@@ -39,7 +39,7 @@ export default function MobileMenu({ menu: { items } }) {
             </li>
           ))}
           <li className="nav-item">
-            <a className="nav-link hover:underline" href={"/page/contact"}>
+            <a className="nav-link hover:underline" href={"/contact"}>
               Контакти
             </a>
           </li>

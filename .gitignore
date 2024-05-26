@@ -1,3 +1,5 @@
 node_modules
 .evershop
 .env
+.log
+.prod.env
