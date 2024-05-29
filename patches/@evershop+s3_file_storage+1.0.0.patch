@@ -1,0 +1,21 @@
+diff --git a/node_modules/@evershop/s3_file_storage/subscribers/product_image_added/awsGenerateProductImageVariant.js b/node_modules/@evershop/s3_file_storage/subscribers/product_image_added/awsGenerateProductImageVariant.js
+index 64ce6ae..3de0490 100644
+--- a/node_modules/@evershop/s3_file_storage/subscribers/product_image_added/awsGenerateProductImageVariant.js
++++ b/node_modules/@evershop/s3_file_storage/subscribers/product_image_added/awsGenerateProductImageVariant.js
+@@ -9,7 +9,6 @@ const { getEnv } = require('@evershop/evershop/src/lib/util/getEnv');
+ const sharp = require('sharp');
+ const { update } = require('@evershop/postgres-query-builder');
+ const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+-const { debug } = require('@evershop/evershop/src/lib/log/debuger');
+ 
+ async function downloadObjectToBuffer(objectUrl) {
+   const parsedUrl = new URL(objectUrl);
+@@ -114,7 +113,7 @@ module.exports = async function awsGenerateProductImageVariant(data) {
+         .and('origin_image', '=', data.origin_image)
+         .execute(pool);
+     } catch (error) {
+-      debug('critical', error);
++      console.error('critical', error);
+     }
+   }
+ };
