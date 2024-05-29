@@ -25,6 +25,7 @@
   },
   "system": {
     "theme": "sport",
+    "file_storage": "s3",
     "extensions": [
       {
         "name": "productComment",
