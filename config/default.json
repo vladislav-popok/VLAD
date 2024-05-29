@@ -37,6 +37,12 @@
         "resolve": "extensions/contact",
         "enabled": true,
         "priority": 10
+      },
+      {
+        "name": "s3_file_storage",
+        "resolve": "node_modules/@evershop/s3_file_storage",
+        "enabled": true,
+        "priority": 10
       }
     ]
   },

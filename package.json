@@ -15,6 +15,7 @@
     "@emotion/styled": "^11.11.5",
     "@evershop/evershop": "1.1.0",
     "@evershop/product_review": "^1.1.0",
+    "@evershop/s3_file_storage": "^1.0.0",
     "@mui/material": "^5.15.18",
     "patch-package": "^8.0.0"
   },
